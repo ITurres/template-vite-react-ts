@@ -3,7 +3,7 @@
     <h2><b>React + TypeScript + Vite + SCSS or CSS3</b></h2>
 </div>
 
-> This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules + Airbnb style guide.
+> This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 ❗ Please choose between `SCSS` or `CSS3` and remove the other from the project.
 
