@@ -18,9 +18,9 @@ jobs:
           node-version: '18.x'
       - name: Setup ESLint
         run: |
-          npm install --save-dev eslint@7 @typescript-eslint/parser@4 @typescript-eslint/eslint-plugin@4
+          npm install --save-dev eslint@8 @typescript-eslint/parser@5 @typescript-eslint/eslint-plugin@5
       - name: ESLint Report
-        run: npx eslint "**/*.{ts,tsx}"
+        run: npx eslint --ext .ts,.tsx .
 
   stylelint:
     name: Stylelint
