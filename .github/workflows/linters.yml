@@ -18,9 +18,7 @@ jobs:
           node-version: '18.x'
       - name: Setup ESLint
         run: |
-          npm install --save-dev eslint@7 eslint-config-airbnb@18 eslint-plugin-import@2 eslint-plugin-jsx-a11y@6 eslint-plugin-react@7 eslint-plugin-react-hooks@4 @babel/eslint-parser@7 @babel/core@7 @babel/plugin-syntax-jsx@7 @babel/preset-env@7 @babel/preset-react@7
-          [ -f .eslintrc.cjs ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/react-redux/.eslintrc.json
-          [ -f .babelrc ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/react-redux/.babelrc
+          npm install --save-dev eslint@7 @typescript-eslint/parser@4 @typescript-eslint/eslint-plugin@4
       - name: ESLint Report
         run: npx eslint "**/*.{ts,tsx}"
 
