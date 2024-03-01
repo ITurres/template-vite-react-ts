@@ -20,7 +20,6 @@ Currently, two official plugins are available:
 
 **Additional non-vite default dev-dependencies:**
 
-- "eslint-config-airbnb": "^19.0.4".
 - "eslint-plugin-react": "^7.33.2".
 - "eslint-plugin-react-hooks": "^4.6.0".
 - "eslint-plugin-react-refresh": "^0.4.5".
