@@ -1,6 +1,6 @@
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=react,vite,typescript,sass,css"/>
-    <h2><b>React + TypeScript + Vite + SCSS or CSS3</b></h2>
+    <img src="https://skillicons.dev/icons?i=vite,react,typescript,sass,css"/>
+    <h2><b>Vite: React + TypeScript + SCSS or CSS3</b></h2>
 </div>
 
 > This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
